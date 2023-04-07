@@ -27,4 +27,3 @@ public class ghostmovement : MonoBehaviour
     }
 }
 
-// level 1 takes about 1.5 min at speed 0.3, around 50 seconds at cycling speed 
