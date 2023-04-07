@@ -15,7 +15,6 @@ public class restartscreentimer : MonoBehaviour
         restartScreenTimer = 3f; 
     }
 
-    // Update is called once per frame
     void Update()
     {
         restartScreenTimer = restartScreenTimer - Time.deltaTime;
