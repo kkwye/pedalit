@@ -16,8 +16,6 @@ public class timer : MonoBehaviour
 
     void Start()
     {
-        // startTime = timerHold;
-        //DontDestroyOnLoad(gameObject);
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             time = 0; 
@@ -25,23 +23,12 @@ public class timer : MonoBehaviour
         else
         {
             time = timerHold;
-        }
-
-        
-        
+        }    
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*
-        float t = Time.time - startTime;
-        timerHold = t;
-        string minutes = ((int)t / 60).ToString();
-        string seconds = (t % 60).ToString("f2");
-        timerText.text = minutes + ":" + seconds;
-        */
-
         if (!end)
         {
             time = time + Time.deltaTime;
