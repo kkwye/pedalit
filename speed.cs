@@ -14,10 +14,6 @@ public class speed : MonoBehaviour
     public Color myYellow = new Color32(250, 179, 0, 255);
     public Color myGreen = new Color32(112, 199, 128, 255);
 
-    /*
-    [SerializeField] public float minSpeedAngle = 0f;
-    [SerializeField] public float maxSpeedAngle = 0f;
-    */
     public float playerSpeed = 0f;
 
     public RectTransform arrow;
@@ -66,4 +62,3 @@ public class speed : MonoBehaviour
     }
 }
 
-// speed is between 0 and 1.5 -> angle is 180 - speed * 120
